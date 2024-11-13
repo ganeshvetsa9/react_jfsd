@@ -35,7 +35,7 @@ export default function Show(){
     const [result, setResult] = useState(null)
     
     if(result == null) {
-        axios.get("https://jfsd-spring-hosting-production-b726.up.railway.app/all", {}).then ((res)=>{
+        axios.get("https://jfsd-spring-hosting-production-b726.up.railway.app//all", {}).then ((res)=>{
             setResult(res.data)
         })
     }
